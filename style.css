@@ -105,6 +105,8 @@ body {
 .inline-list {
     display: inline;
     padding: 0rem 0.5rem;
+    font-size: 20px;
+    color: var(--darrkgreen);
 }
 
 /** sections*/
@@ -139,8 +141,12 @@ body {
 }
 .footer .footer-header {
     font-weight: bold;
-    font-size: large;
+    font-size: 35px;
     color:cornsilk;
+    border-bottom-left-radius: 1rem;
+    padding: 0.5rem;
+    font-family: 'Pacifico', cursive;
+
 }
 .footer ul {
     padding-inline-start: 0px;
@@ -164,3 +170,18 @@ padding-top: 5rem;
 .heading-inverted{
     color: var(--darrkgreen);
 }
+
+/* blogs and projects */
+.showcase-list {
+    padding: 1rem;
+    border: var(--darrkgreen);
+    
+    border-radius: 5rem;
+    color: var(--dark-gray);
+
+}
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
